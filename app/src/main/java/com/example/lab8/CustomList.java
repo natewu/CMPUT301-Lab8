@@ -72,6 +72,8 @@ public class CustomList extends ArrayAdapter<City> {
         // Utilizes the equals method in the City class.
         return cities.contains(city);
     }
+
+    
     
     
 }
