@@ -54,7 +54,7 @@ public class CustomListTest {
         list.add(new City("Calgary", "Alberta"));
         City city = new City("Calgary", "Alberta");
         list.delete(city);
-        assertFalse(cityList.hasCity(city));
+        assertFalse(list.hasCity(city));
     }
 
 
